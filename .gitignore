@@ -1,0 +1,9 @@
+#Ignore env file
+.env
+#Ignore data folder
+data/
+#Ignore players_scraped
+players_scraped.csv
+#Ignore virtual environment
+venv/
+
