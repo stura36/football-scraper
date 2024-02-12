@@ -48,10 +48,10 @@ Setup database tables by running:<br>
 python database_setup.py
 ```
 
-Load existing data(playersData.csv) by running pass the filepath as command line argument:<br>
+Load existing data(playersData.csv) into database by running database_load.py and passing the filepath as command line argument:<br>
 
 ```
-python database_load.py path_to_playersDatacsv
+python database_load.py <path_to_playersData.csv>
 ```
 
 Run web scraper by passing the filepath to the urls.csv file as command line argument:<br>
@@ -63,7 +63,7 @@ python player_scrapers.py <path_to_urls>
 Run database_load.py to load the scraped data into the database by passing the filepath to the players_scraped.csv file as command line argument:
 
 ```
-python database_load.py players_scraped.csv
+python database_load.py <path_to_scraped_data>
 ```
 
 <br>
@@ -71,5 +71,5 @@ python database_load.py players_scraped.csv
 Run queries by passing the club name as command line argument:
 
 ```
-python queries.py "<club name>"
+python queries.py <club name>
 ```
